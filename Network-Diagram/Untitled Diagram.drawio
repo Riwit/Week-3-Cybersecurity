@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="SFglJyYNhVXvkKD5fZrc">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9qJhD4Gi06IEDH3JmbZX-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="VMWare NAT&lt;div&gt;192.168.188.1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9qJhD4Gi06IEDH3JmbZX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Kali Linux 192.168.188.131 NMAP, Wireshark" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9qJhD4Gi06IEDH3JmbZX-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DNS Service 192.168.188.1 dnsmasq 2.45" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9qJhD4Gi06IEDH3JmbZX-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ubuntu Server 192.168.188.128 Apache HTTP 2.4.68" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9qJhD4Gi06IEDH3JmbZX-6" edge="1" parent="1" source="9qJhD4Gi06IEDH3JmbZX-2" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="9qJhD4Gi06IEDH3JmbZX-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="339.58" as="sourcePoint" />
+            <mxPoint x="550" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qJhD4Gi06IEDH3JmbZX-7" edge="1" parent="1" source="9qJhD4Gi06IEDH3JmbZX-4" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="9qJhD4Gi06IEDH3JmbZX-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="670" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9qJhD4Gi06IEDH3JmbZX-8" edge="1" parent="1" source="9qJhD4Gi06IEDH3JmbZX-3" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="810" y="550" as="sourcePoint" />
+            <mxPoint x="400" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
